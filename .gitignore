@@ -1,0 +1,67 @@
+# =========================
+# Python
+# =========================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Virtual Environment
+# =========================
+
+.venv/
+venv/
+env/
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / Editor
+# =========================
+
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# =========================
+# Testing / Cache
+# =========================
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Project Specific
+# =========================
+
+# Personal notes
+note.txt
+
+# Generated job data
+data/jobs.json
+
+# Logs
+*.log
+logs/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
